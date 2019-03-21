@@ -25,7 +25,7 @@ def solution(A, B):
             strs[1] = strs[1][:-give_time]
             times = 0
 
-        if strs == ['','']:
+        if strs == ['', '']:
             return strings
         if strings.endswith('aaa') or strings.endswith('bbb'):
             strings, strs = elements_list(A, B, x)
@@ -39,11 +39,5 @@ def solution(A, B):
 
 import random
 
-# print(random.randint(1,2))
 print(len(min(['aaaaa', 'bbb'])))
 print(solution(6, 3))
-
-g = ['b', 'aaaaaaa']
-
-g[1] = g[1][:-2]
-print(g)
