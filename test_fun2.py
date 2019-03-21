@@ -39,5 +39,4 @@ def solution(A, B):
 
 import random
 
-print(len(min(['aaaaa', 'bbb'])))
 print(solution(6, 3))
